@@ -1,0 +1,26 @@
+{
+  "name": "core-ui-doc",
+  "version": "0.1.0",
+  "description": "Documentation of personal user interface",
+  "main": "index.js",
+  "scripts": {
+    "deploy:doc": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gchnick/core-ui-doc.git"
+  },
+  "keywords": [
+    "storybook",
+    "doc"
+  ],
+  "author": "Nick Galan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gchnick/core-ui-doc/issues"
+  },
+  "homepage": "https://github.com/gchnick/core-ui-doc#readme",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
